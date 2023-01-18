@@ -1,2 +1,1 @@
-# Portfolio2
-Data Science
+# 포트폴리오 프로젝트별 전체 코드입니다.
