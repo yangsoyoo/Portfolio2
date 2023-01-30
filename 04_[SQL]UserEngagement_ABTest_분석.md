@@ -8,7 +8,7 @@
 
 - 사내 커뮤니케이션, 협업 등을 할 수 있는 기업용 sns 서비스(Slack과 유사)
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F931ba744-ccff-4f5f-94e5-ea6ff4b2897d%2FUntitled.png?id=476bfb00-d08e-44f7-a17e-27e5822c11c9&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
+![](/Users/sjk/Library/Application%20Support/marktext/images/2023-01-30-16-16-58-image.png)
 
  
 
