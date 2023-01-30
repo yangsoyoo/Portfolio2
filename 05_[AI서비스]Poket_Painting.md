@@ -8,7 +8,7 @@
 
 직접 그린 포켓몬 손그림 이미지를 입력하면 → 어떤 포켓몬인지 분류해주고 → 자동으로 채색해주는 서비스
 
-<img src="./data/1.png" align="left"></img>
+<img src="./data/1.png" width="100%" align="left"></img>
 
 ㅤ
 

@@ -8,7 +8,7 @@
 
 - 사내 커뮤니케이션, 협업 등을 할 수 있는 기업용 sns 서비스(Slack과 유사)
 
-<img src="./data/101.png" align="left"></img>
+<img src="./data/101.png" width="100%" align="left"></img>
 
  
 
@@ -32,7 +32,7 @@ SELECT DATE_TRUNC('week', e.occurred_at) AS week,
   ORDER BY 1;
 ```
 
-<img src="./data/102.png" align="left"></img>
+<img src="./data/102.png" width="100%" align="left"></img>
 
  
 
@@ -56,7 +56,7 @@ SELECT DATE_TRUNC('week', u.created_at) AS week,
   ORDER BY 1;
 ```
 
-<img src="./data/103.png" align="left"></img>
+<img src="./data/103.png" width="100%" align="left"></img>
 
  
 
@@ -96,7 +96,7 @@ SELECT DATE_TRUNC('week', z.login_date) AS "week",
   ORDER BY 1;
 ```
 
-<img src="./data/104.png" align="left"></img>
+<img src="./data/104.png" width="100%" align="left"></img>
 
  
 
@@ -120,7 +120,7 @@ SELECT DATE_TRUNC('week', occurred_at) AS week,
   ORDER BY 1;
 ```
 
-<img src="./data/105.png" align="left"></img>
+<img src="./data/105.png" width="100%" align="left"></img>
 
  
 
@@ -143,7 +143,7 @@ SELECT DATE_TRUNC('week', occurred_at) AS week,
   ORDER BY 1;
 ```
 
-<img src="./data/106.png" align="left"></img>
+<img src="./data/106.png" width="100%" align="left"></img>
 
  
 
@@ -173,7 +173,7 @@ SELECT DATE_TRUNC('week', e1.occurred_at) AS week, -- 이메일 보낸 주
   GROUP BY 1;
 ```
 
-<img src="./data/107.png" align="left"></img>
+<img src="./data/107.png" width="100%" align="left"></img>
 
  
 
@@ -195,7 +195,7 @@ SELECT DATE_TRUNC('week', e1.occurred_at) AS week, -- 이메일 보낸 주
 
 그룹별로 publisher의 old/new 버전을 각각 노출
 
-<img src="./data/108.png" align="left"></img>
+<img src="./data/108.png" width="100%" align="left"></img>
  
 
 살험 결과 test group의 메세지 포스팅 횟수가 1.5배 높음
@@ -222,7 +222,7 @@ SELECT cbu.experiment_group,
   GROUP BY 1;
 ```
 
-<img src="./data/109.png" align="left"></img>
+<img src="./data/109.png" width="100%" align="left"></img>
 
  
 
@@ -238,7 +238,7 @@ SELECT cbu.experiment_group,
 
 ### ⇒ 각 그룹간 평균의 차이가 통계적으로 유의미함
 
-<img src="./data/110.png" align="left"></img>
+<img src="./data/110.png" width="100%" align="left"></img>
 
  
 
@@ -272,7 +272,7 @@ SELECT cbu.experiment_group,
   GROUP BY 1;
 ```
 
-<img src="./data/111.png" align="left"></img>
+<img src="./data/111.png" width="100%" align="left"></img>
 
  
 
@@ -298,7 +298,7 @@ SELECT cbu.experiment_group,
   GROUP BY 1;
 ```
 
-<img src="./data/112.png" align="left"></img>
+<img src="./data/112.png" width="100%" align="left"></img>
 
  
 
@@ -319,7 +319,7 @@ SELECT DATE_TRUNC('month', u.activated_at) AS month,
   ORDER BY 1;
 ```
 
-<img src="./data/113.png" align="left"></img>
+<img src="./data/113.png" width="100%" align="left"></img>
 
  
 
@@ -352,7 +352,7 @@ SELECT cbu.experiment_group,
   GROUP BY 1;
 ```
 
-<img src="./data/114.png" align="left"></img>
+<img src="./data/114.png" width="100%" align="left"></img>
 
  
 
@@ -362,7 +362,7 @@ SELECT cbu.experiment_group,
 
 - P-value = 0.0000
 
-<img src="./data/115.png" align="left"></img>
+<img src="./data/115.png" width="100%" align="left"></img>
 
  
 
