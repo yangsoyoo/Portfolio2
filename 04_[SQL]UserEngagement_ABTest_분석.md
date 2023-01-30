@@ -8,7 +8,7 @@
 
 - 사내 커뮤니케이션, 협업 등을 할 수 있는 기업용 sns 서비스(Slack과 유사)
 
-![](/Users/sjk/Library/Application%20Support/marktext/images/2023-01-30-16-16-58-image.png)
+<img src="./data/101.png" align="left"></img>
 
  
 
@@ -32,7 +32,7 @@ SELECT DATE_TRUNC('week', e.occurred_at) AS week,
   ORDER BY 1;
 ```
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2d41f0cb-6c72-42c3-a490-dc4fa810cf10%2FUntitled.png?id=be2c7bd9-336e-4b5c-9098-9bf4df87a430&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
+<img src="./data/102.png" align="left"></img>
 
  
 
@@ -56,7 +56,7 @@ SELECT DATE_TRUNC('week', u.created_at) AS week,
   ORDER BY 1;
 ```
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe1618208-180b-4869-a01f-a88deec7d9a5%2FUntitled.png?id=ad71b88d-48bb-4f25-b918-0c9413a5c037&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
+<img src="./data/103.png" align="left"></img>
 
  
 
@@ -96,7 +96,7 @@ SELECT DATE_TRUNC('week', z.login_date) AS "week",
   ORDER BY 1;
 ```
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa68d9ccc-45ad-4898-b238-f3711db18bcf%2FUntitled.png?id=01c0f699-ccda-45e1-90ba-d51bc3646108&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
+<img src="./data/104.png" align="left"></img>
 
  
 
@@ -120,7 +120,7 @@ SELECT DATE_TRUNC('week', occurred_at) AS week,
   ORDER BY 1;
 ```
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fac6e2ab7-7646-454a-8505-48b725fc03a3%2FUntitled.png?id=83a9f638-7add-4bf2-9730-4c6b5970cf48&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
+<img src="./data/105.png" align="left"></img>
 
  
 
@@ -143,7 +143,7 @@ SELECT DATE_TRUNC('week', occurred_at) AS week,
   ORDER BY 1;
 ```
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2f1f5f35-e7b5-44c2-8842-3a453f04b44b%2FUntitled.png?id=1a9441af-9d66-47c0-9d88-4a26526fbb84&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
+<img src="./data/106.png" align="left"></img>
 
  
 
@@ -173,7 +173,7 @@ SELECT DATE_TRUNC('week', e1.occurred_at) AS week, -- 이메일 보낸 주
   GROUP BY 1;
 ```
 
-![](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F30e45f79-cb90-4c7c-b555-bea518c797eb%2FUntitled.png?id=46a5fc34-cf18-49b8-9e60-8a2ea10fada2&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=6808195d-cfa3-49ea-b906-87e5744ae2b8&cache=v2)
+<img src="./data/107.png" align="left"></img>
 
  
 
@@ -195,8 +195,7 @@ SELECT DATE_TRUNC('week', e1.occurred_at) AS week, -- 이메일 보낸 주
 
 그룹별로 publisher의 old/new 버전을 각각 노출
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff3f04aa1-9a8c-46e4-ad11-d19a44136207%2FUntitled.png?id=702cd642-e75b-4f43-8c1f-1fe3a3083dff&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
-
+<img src="./data/108.png" align="left"></img>
  
 
 살험 결과 test group의 메세지 포스팅 횟수가 1.5배 높음
@@ -223,7 +222,7 @@ SELECT cbu.experiment_group,
   GROUP BY 1;
 ```
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45d5b2a8-c5ef-4ae5-9f91-eb70c11c940e%2FUntitled.png?id=249b0c4b-0233-4e1d-834c-39ef02719a60&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
+<img src="./data/109.png" align="left"></img>
 
  
 
@@ -239,7 +238,7 @@ SELECT cbu.experiment_group,
 
 ### ⇒ 각 그룹간 평균의 차이가 통계적으로 유의미함
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F548c0f51-35e3-4896-99b2-ac94345632f8%2FUntitled.png?id=9e9f500c-3ddf-40d6-8b88-88472d769d0a&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
+<img src="./data/110.png" align="left"></img>
 
  
 
@@ -273,7 +272,7 @@ SELECT cbu.experiment_group,
   GROUP BY 1;
 ```
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3e7a8940-b241-424e-b364-facfe56bd83a%2FUntitled.png?id=1b2a0303-3777-48ed-84e9-dd009104c7cd&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
+<img src="./data/111.png" align="left"></img>
 
  
 
@@ -299,7 +298,7 @@ SELECT cbu.experiment_group,
   GROUP BY 1;
 ```
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F8959dad2-00b0-42fe-8b62-8576d0890209%2FUntitled.png?id=64b9a0c6-220c-45e9-b370-00c3ac6293ae&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
+<img src="./data/112.png" align="left"></img>
 
  
 
@@ -320,7 +319,7 @@ SELECT DATE_TRUNC('month', u.activated_at) AS month,
   ORDER BY 1;
 ```
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7aededcf-7102-4332-9e29-377cf342055a%2FUntitled.png?id=018ba886-a450-4e47-a6b9-9bc13d491bdf&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
+<img src="./data/113.png" align="left"></img>
 
  
 
@@ -353,7 +352,7 @@ SELECT cbu.experiment_group,
   GROUP BY 1;
 ```
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fca7ea387-2b98-426c-8fa0-ff8bb97725b0%2FUntitled.png?id=49136a3a-879d-430e-8904-c235fd10c62b&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
+<img src="./data/114.png" align="left"></img>
 
  
 
@@ -363,7 +362,7 @@ SELECT cbu.experiment_group,
 
 - P-value = 0.0000
 
-![](https://yangsoyoo.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F1b065db8-ef81-4e93-bf7e-6a1257cfcdba%2FUntitled.png?id=96e64199-bed1-47ab-8e84-4dc5d2ba7998&table=block&spaceId=cfd6e6fe-3816-40ed-a6e5-4e3cd08ee1aa&width=960&userId=&cache=v2)
+<img src="./data/115.png" align="left"></img>
 
  
 

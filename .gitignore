@@ -2,7 +2,7 @@
 .DS_Store
 survey.py
 visualize.py
-data2/
+ignore/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
